@@ -16,8 +16,8 @@ const countdownfunction = setInterval(function () {
     
     clearInterval(countdownfunction);
     document.getElementById('countdown').innerHTML = 
-"<iframe align="center" frameborder="no" height="400px" scrolling="auto" src="https://mintnow.netlify.app" style="border: 1px solid;" width="98%"></iframe>"   
-'
+"<div><iframe align="center" frameborder="no" height="400px" scrolling="no" src="https://mintnow.netlify.app" style="border: 1px solid;" width="98%"></iframe></div>"   
+
   } else {
     clockdiv.querySelector(".days").innerHTML = days;
     clockdiv.querySelector(".hours").innerHTML = hours;
