@@ -13,7 +13,7 @@ const countdownfunction = setInterval(function () {
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
   if (diff < 0) {
-    clockdiv.style.display = "none";
+     window.location.href = "https://mintnow.netlify.app";
     clearInterval(countdownfunction);
   } else {
     clockdiv.querySelector(".days").innerHTML = days;
