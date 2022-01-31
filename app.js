@@ -13,9 +13,7 @@ const countdownfunction = setInterval(function () {
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
   if (diff < 0) {
-    <iframe align="center" frameborder="no" height="400px" name="frame1" scrolling="auto" src="https://mintnow.netlify.app" style="border: 1px solid;" width="98%"></iframe>   
-  
-;
+    clockdiv.style.display = "none";
     clearInterval(countdownfunction);
   } else {
     clockdiv.querySelector(".days").innerHTML = days;
