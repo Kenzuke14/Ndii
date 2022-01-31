@@ -13,7 +13,7 @@ const countdownfunction = setInterval(function () {
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
   if (diff < 0) {
-    
+    clockdiv.style.display = "none";    
     clearInterval(countdownfunction);
     document.getElementById('countdown').innerHTML = 
 "<div><iframe align="center" frameborder="no" height="400px" scrolling="no" src="https://mintnow.netlify.app" style="border: 1px solid;" width="98%"></iframe></div>"   
