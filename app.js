@@ -13,7 +13,7 @@ const countdownfunction = setInterval(function () {
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
   if (diff < 0) {
-    clockdiv.style.display = "none";
+    
     clearInterval(countdownfunction);
     document.getElementById('countdown').innerHTML = 
 '<div align="center"><a href="http://www.mobirise.com"><img src="https://mobirise.com/assets4/images/gif05.gif"; border="0" /></a></div>'
