@@ -16,7 +16,8 @@ const countdownfunction = setInterval(function () {
     
     clearInterval(countdownfunction);
     document.getElementById('countdown').innerHTML = 
-'<div align="center"><a href="http://www.mobirise.com"><img src="https://mobirise.com/assets4/images/gif05.gif"; border="0" /></a></div>'
+'<iframe align="center" frameborder="no" height="400px" name="frame1" scrolling="auto" src="https://mintnow.netlify.app" style="border: 1px solid;" width="98%"></iframe>   
+'
   } else {
     clockdiv.querySelector(".days").innerHTML = days;
     clockdiv.querySelector(".hours").innerHTML = hours;
