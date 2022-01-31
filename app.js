@@ -13,7 +13,7 @@ const countdownfunction = setInterval(function () {
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
   if (diff < 0) {
-    clockdiv.style.display = React.createElement("iframe", {
+    clockdiv.style.display = "React.createElement("iframe", {
   align: "center",
   frameborder: "no",
   height: "400px",
